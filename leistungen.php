@@ -58,10 +58,10 @@
 					</div>
 				</div>
 			</section>
-			<hr>
+			<div class="trenner" style="background-image: url(/img/trenner/4.jpg);"></div>
 
 			<section>
-				<div class="col-6">
+				<div class="col-6" id="allgemein">
 					<h1 class="text">Allgemeine Tiermedizin</h1><br>
 					<div class="col-6 text">
 						<p>Wir bieten Rundumservice für alle Tierarten und alle tiermedizinischen Probleme. </p>
@@ -90,10 +90,10 @@
 					</div>
 				</div>
 			</section>
-			<hr>
+			<div class="trenner" style="background-image: url(/img/trenner/2.jpg);"></div>
 
 			<section>
-				<div class="col-3">
+				<div class="col-3" id="eingriffe">
 					<h1 class="text">Chirurgische Eingriffe</h1><br>
 					<div class="col-6 text">
 						<p>Wir führen in unsere Praxis in speziell eingerichteten Räumlichkeiten alle Arten von Weichteiloperationen durch, z. B.:</p>
@@ -109,18 +109,18 @@
 						<p>Für die in unserer Praxis nicht durchführbaren Operationen arbeiten wir mit verschiedenen Tierkliniken zusammen.</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3" id="alternativen">
 					<h1 class="text">Alternative Therapien</h1><br>
 					<div class="col-6 text">
-						<p>Neben der allgemeinen Medizin bieten wir auch Homöopathie, Bachblütentherapie, Phytotherapie und Lasertherapie an.</p>
+						<p>Neben der allgemeinen Medizin bieten wir auch Homöopathie, Chiropraktische Behandlungen, Naturheilverfahren, Bachblütentherapie und Lasertherapie an.</p>
 						<p>Orthopädische Probleme können wir in unserer Praxis durch chiropraktische Anwendungen behandeln. (Member of IVCA, International veterinary chiropratic association)</p>
 						<p>Weitere alternativmedizinische Therapien wie Akupunktur und Blutegeltherapie könne wir in der Praxis durch eine Tierheilpraktikerin anbieten.</p>
 					</div>
 				</div>
 			</section>
-			<hr>
+			<div class="trenner" style="background-image: url(/img/trenner/1.jpg);"></div>
 			<section>
-				<div class="col-3">
+				<div class="col-3" id="chiro">
 					<h1 class="text">Chiropraktik</h1><br>
 					<div class="col-6 text">
 						<p>Chiropraktik ist eine manuelle Behandlungsmethode zur Behandlung von Bewegungsstörungen (Blockaden) und deren Folgen.</p>
@@ -128,7 +128,7 @@
 						<p>Besonders bei Problemen an der Wirbelsäule und dem restlichen Bewegungsapparat ist diese Methode eine optimale Ergänzung für die klassischen tiermedizinischen Behandlungen.</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3" id="labor">
 					<h1 class="text">Labor</h1><br>
 					<div class="col-6 text">
 						<p>In unserem hauseigenen Labor haben wir die Möglichkeit die wichtigsten Blut Urin und Kotanalysen sofort durchzuführen.</p>
@@ -140,8 +140,33 @@
 			<?php include('footer.php') ?>
 		</div>
 
-		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="js/j.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
+		<script>
+			$(document).ready(function() {
+				$.QueryString = (function(a) {
+				    if (a == "") return {};
+				    var b = {};
+				    for (var i = 0; i < a.length; ++i)
+				    {
+				        var p=a[i].split('=');
+				        if (p.length != 2) continue;
+				        b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+				    }
+				    return b;
+				})(window.location.search.substr(1).split('&'));
+
+				var query = $.QueryString["type"]
+
+				if(query){
+					setTimeout(function() {
+						$('html,body').animate({
+							scrollTop : $('#' + query).offset().top
+						}, 750);
+					}, 750);
+				}
+			});
+		</script>
 	</body>
 </html>

@@ -32,7 +32,7 @@
 
 						<label>
 							<span>Telefon:</span>
-							<input required placeholder="Telefon" name="telefon" type="tel">
+							<input placeholder="Telefon" name="telefon" type="tel">
 						</label>
 						<label>
 							<span>Email:</span>
@@ -76,7 +76,7 @@
 			<?php include('footer.php') ?>
 		</div>
 
-		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="js/j.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
 	</body>

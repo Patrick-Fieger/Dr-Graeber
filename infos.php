@@ -23,7 +23,7 @@
 					<h1 class="text">Notfälle</h1><br>
 					<div class="col-6 text">
 						<h2>Rufen Sie sofort an:</h2>
-						<p>Bei Notfällen können uns unsere Kunden unter folgender Nummer erreichen: <strong>0171 / 7702778</strong></p>
+						<p>Bei Notfällen können uns unsere Kunden unter folgender Nummer erreichen: <strong><a style="text-decoration: underline;" href="tel:01717702778" title="">0171 / 7702778</a></strong></p>
 						<div class="col-3">
 							<h2>Wichtige Informationen für uns:</h2>
 							<ul>
@@ -65,6 +65,8 @@
 					<div class="col-3 text">
 						<h2>Tipps aus der Praxis</h2>
 						<ul>
+
+							<li><a href="http://parasitosen.de/" target="_blank" class="link">Auslandskrankheiten</a></li>
 							<li><a href="Futterplan_Schildkroete.pdf" target="_blank" class="link">Futteranleitung europäische Landschildkröten</a></li>
 							<li><a href="Futterplan.pdf" target="_blank" class="link">Futterplan bei Magen-/Darmerkrankungen</a></li>
 							<li><a href="Merkblatt_Allergie.pdf" target="_blank" class="link">Merkblatt Allergie gegen Futtermittelmilben</a></li>
@@ -85,7 +87,7 @@
 			<?php include('footer.php') ?>
 		</div>
 
-		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="js/j.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
 	</body>

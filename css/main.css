@@ -1,3 +1,24 @@
+#primary_nav_wrap,
+.kwicks_startseite,
+form button,
+input,textarea{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+#primary_nav_wrap ul li{
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s
+}
+
+.scrolloff {
+    pointer-events: none;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -141,6 +162,10 @@ textarea {
         5px 0px 10px -5px rgba(0,0,0,0.1);
 }
 
+*{
+    outline: none !important
+}
+
 header,footer{
     float: left;
     width: 100%;
@@ -206,10 +231,13 @@ form input,
 form textarea{
     width: 80%;
     padding: 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
 }
 
 form textarea{
     height: 200px;
+    border-color: #ccc;
 }
 
 form button{
@@ -220,8 +248,18 @@ form button{
     margin-top: 20px;
 }
 
+form button:active{
+    outline: none;
+}
+
 form button:hover{
     background :#f6de77
+}
+
+form input:focus,
+form textarea:focus{
+    outline: none;
+    border-color: #222;
 }
 
 /*MENU STYLES*/
@@ -308,9 +346,8 @@ form button:hover{
 
 .unslider {
     overflow: auto;
-    margin: 1%;
     padding: 0;
-    width: 98%
+    width: 100%
 }
 
 .unslider-wrap {
@@ -366,6 +403,10 @@ form button:hover{
     right: 20px
 }
 
+.unslider{
+    display: none;
+}
+
 .slider a{
     position: relative;
     color: #000;
@@ -397,6 +438,23 @@ form button:hover{
 
 section{
     padding: 0 20px;
+}
+
+.trenner{
+    width: 100%;
+    float: left;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.map_wrapper{
+    margin-top: 30px;
+    padding: 0;
+    float: left;
+    width: 100%
 }
 
 section .text{
@@ -897,7 +955,7 @@ section .text{
     color: #000;
     text-align: center;
     text-decoration: none;
-    width: 18%;
+    width: 23%;
     margin: 1% 1% 90px 1%;
     height: 200px;
     background-size: cover;
@@ -913,14 +971,96 @@ section .text{
     bottom: -50px;
 }
 
+.menu-button{
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon/menu.svg);
+    background-size: cover;
+    /* clear: both; */
+    margin: 31px 14px;
+    display: none;
+}
 
+.menu-button:hover{
+    cursor: pointer;
+}
 
 /*RESPONSIVE*/
 
+
+
+@media screen and (max-width: 810px) {
+    .kwicks_startseite{
+        display: none;
+    }
+    .unslider{
+        display: block;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
+    .menu-button{
+        display: block;
+    }
+
     .col-2,.col-3,.fancybox{
         width: 100%;
     }
+
+    form input, form textarea{
+        width: 100%
+    }
+
+    form button{
+        margin-bottom: 40px;
+    }
+
+    .unslider-nav{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #primary_nav_wrap{
+        height: 0;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+
+    #primary_nav_wrap.active{
+        height: 200px;
+    }
+
+    #primary_nav_wrap,
+    #primary_nav_wrap ul{
+        float: left;
+        width: 100%
+    }
+
+    #primary_nav_wrap ul li{
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    #primary_nav_wrap ul a{
+        padding: 0;
+    }
+
+    .name{
+        font-size: 1rem;
+    }
+
+    .name span{
+        font-size: 0.9rem;
+    }
+
+    #logo{
+        height: 117px;
+        margin-left: 0;
+        width: 73px;
+    }
+
 }
 
 
@@ -987,5 +1127,81 @@ section .text{
 }
 
 
+.kwicks_startseite{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.kwicks_startseite.active{
+    opacity: 1;
+    visibility: visible;
+}
 
 
+.kwicks{
+    margin-left: 10px
+}
+
+
+/* This css file serves as a template for styling your kwicks.  Feel free to modify, but please make note of the comments - some of them are important. */
+.kwicks,.kwicks_startseite {
+    /* recommended styles for kwicks ul container */
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 0px auto
+}
+.kwicks.horizontal li {
+    /* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+    margin-right: 0px; /*Set to same as spacing option. */
+    float: left;
+}
+.kwicks.vertical  li{
+    /* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+    margin-bottom: 0px; /*Set to same as spacing option. */
+}
+
+.kwicks li{
+    float: left;
+    width: 32px;
+    height: 401px;
+    margin-right: 5px;
+}
+.kwicks_startseite li{
+    float: left;
+    width: 135px;
+    height: 401px;
+    margin-right: 0px;
+}
+
+#kwick1 {
+    background-image: url('/img/slider_home/trans.gif');
+}
+#kwick1_startseite {
+    background-image: url('/img/slider_home/labor2.jpg');
+}
+#kwick2 {
+    background-image: url('/img/slider_home/allg30.jpg');
+}
+#kwick3 {
+    background-image: url('/img/slider_home/op2.jpg');
+}
+#kwick4 {
+    background-image: url('/img/slider_home/alternativ10.jpg');
+}
+#kwick5 {
+    background-image: url('/img/slider_home/praxis7.jpg');
+}
+#kwick6 {
+    background-image: url('/img/slider_home/chiro13.jpg');
+    margin-right: none;
+}
+
+.kwicks.horizontal #kwick_6 {
+    margin-right: none; /* cancel margin on last kiwck (if you set a margin above) */
+}
+.kwicks.vertical #kwick_6 {
+    margin-bottom: none; /* cancel margin on last kiwck (if you set a margin above) */
+}
