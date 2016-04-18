@@ -31,7 +31,7 @@
 						<div class="col-3">
 							<ul>
 								<li>Laboruntersuchungen</li>
-								<li>Röntgen HD</li>
+								<!-- <li>Röntgen HD</li> -->
 								<li>Digitales Röntgen</li>
 								<li>Ultraschall</li>
 								<li>Equidenpass Aufnahme</li>
@@ -58,7 +58,7 @@
 					</div>
 				</div>
 			</section>
-			<div class="trenner" style="background-image: url(/img/trenner/4.jpg);"></div>
+			<div class="trenner" style="background-image: url(/img/trenner/1.jpg);"></div>
 
 			<section>
 				<div class="col-6" id="allgemein">
@@ -72,6 +72,7 @@
 							<ul>
 								<li>digitales Röntgen (z.B. HD/ED Untersuchung)</li>
 								<li>Ultraschalluntersuchungen</li>
+								<li>Dr. Susanne Schlieter vom Collegium Cardiologicum ev. zertifizierte Spezialistin Kardiologie und Ultraschalldiagnostik aus Freiburg <a href="http://www.schlieter-kleintierkardiologie.de/" target="_blank" title="">zur Website</a></li>
 								<li>Labordiagnostik</li>
 								<li>Zahnpflege und Korrekture bei Pferd<br>Hund Katze und Nagetieren</li>
 								<li>Futtermittelberatung</li>
@@ -84,7 +85,7 @@
 								<li>Alternativ Medizin wie Homöopathie und Bachblütentherapie</li>
 								<li>Untersuchung auf Patellaluxation (zertifiziert nach VDH)</li>
 								<li>Chiropraktische Behandlungen</li>
-								<li>Chirurgische Eingriffe und Operationen</li>
+								<!-- <li>Chirurgische Eingriffe und Operationen</li> -->
 							</ul>
 						</div>
 					</div>
@@ -99,11 +100,10 @@
 						<p>Wir führen in unsere Praxis in speziell eingerichteten Räumlichkeiten alle Arten von Weichteiloperationen durch, z. B.:</p>
 						<div class="col-6">
 							<ul>
-								<li>digitales Röntgen (z.B. HD/ED Untersuchung)</li>
-								<li>Ultraschalluntersuchungen</li>
-								<li>Labordiagnostik</li>
-								<li>Zahnpflege und Korrekture bei Pferd Hund Katze und Nagetieren</li>
-								<li>Futtermittelberatung</li>
+								<li>Kastrationen</li>
+								<li>Tumoroperationen</li>
+								<li>Wundversorgung</li>
+								<li>Zahnextraktionen</li>
 							</ul>
 						</div>
 						<p>Für die in unserer Praxis nicht durchführbaren Operationen arbeiten wir mit verschiedenen Tierkliniken zusammen.</p>
@@ -114,11 +114,11 @@
 					<div class="col-6 text">
 						<p>Neben der allgemeinen Medizin bieten wir auch Homöopathie, Chiropraktische Behandlungen, Naturheilverfahren, Bachblütentherapie und Lasertherapie an.</p>
 						<p>Orthopädische Probleme können wir in unserer Praxis durch chiropraktische Anwendungen behandeln. (Member of IVCA, International veterinary chiropratic association)</p>
-						<p>Weitere alternativmedizinische Therapien wie Akupunktur und Blutegeltherapie könne wir in der Praxis durch eine Tierheilpraktikerin anbieten.</p>
+						<p>Weitere alternativmedizinische Therapien wie Dry Needling und Blutegeltherapie bieten wir ebenfalls in unserer Praxis an.</p>
 					</div>
 				</div>
 			</section>
-			<div class="trenner" style="background-image: url(/img/trenner/1.jpg);"></div>
+			<div class="trenner" style="background-image: url(/img/trenner/3.jpg);"></div>
 			<section>
 				<div class="col-3" id="chiro">
 					<h1 class="text">Chiropraktik</h1><br>
@@ -132,7 +132,7 @@
 					<h1 class="text">Labor</h1><br>
 					<div class="col-6 text">
 						<p>In unserem hauseigenen Labor haben wir die Möglichkeit die wichtigsten Blut Urin und Kotanalysen sofort durchzuführen.</p>
-						<p>Ansonsten arbeiten wir mit sehr effizienten und qualifizierten Laboratorien zusammen. Die Proben werden täglich von einem Kurier abgeholt und direkt zum Labor gebracht so das uns meist schon am darauffolgenden Tag die Ergebnisse vorliegen.</p>
+						<p>Ansonsten arbeiten wir mit sehr effizienten und qualifizierten Laboratorien zusammen. Die Proben werden täglich von einem Kurier abgeholt und direkt zum Labor gebracht so dass uns meist schon am darauffolgenden Tag die Ergebnisse vorliegen.</p>
 					</div>
 				</div>
 			</section>

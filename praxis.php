@@ -48,11 +48,11 @@
 						<a href="img/team/team2.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team2.jpg)" title="Dr. med. vet. Matthias Gräber"><span>Dr. med. vet.<br> Matthias Gräber</span></a>
 						<a href="img/team/team3.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team3.jpg)" title="Tierärztin Tanja Koradin"><span>Tierärztin<br> Tanja Koradin</span></a>
 						<a href="img/team/team14.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team14.jpg)" title="Tierärztin Cornelia Leusser"><span>Tierärztin<br> Cornelia Leusser</span></a>
-						<a href="img/team/team1.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team1.jpg)" title="Tierärztin Katharina Ott"><span>Tierärztin<br> Katharina Ott</span></a>
+						<a href="img/team/tea.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/tea.jpg)" title="Tierärztin Katharina Ott"><span>Auszubildende<br> Lea Scheib</span></a>
 						<a href="img/team/team6.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team6.jpg)" title="Assistentin Christina Müller"><span>Assistentin<br> Christina Müller</span></a>
 						<a href="img/team/team5.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team5.jpg)" title="Assistentin Katja Ehret"><span>Assistentin<br> Katja Ehret</span></a>
 						<a href="img/team/team4.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team4.jpg)" title="Tierarzthelferin Vivien Sättele"><span>Tierarzthelferin<br> Vivien Sättele</span></a>
-						<a href="img/team/team15.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team15.jpg)" title="Auszubildende Constanze Noak"><span>Auszubildende<br> Constanze Noak</span></a>
+						<a href="img/team/team15.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team15.jpg)" title="Auszubildende Constanze Noak"><span>Tierarzthelferin<br> Constanze Noak</span></a>
 						<!-- <a href="img/team/team16.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team16.jpg)" title="Auszubildende Stephanie Flößer"><span>Auszubildende<br> Stephanie Flößer</span></a> -->
 						<!-- <a href="img/team/team10.jpg" rel="gallery1" class="fancybox" style="background-image:url(img/team/team10.jpg)" title="Die Praxismöpse"><span>Die<br> Praxismöpse</span></a> -->
 					</div>

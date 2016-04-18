@@ -112,42 +112,42 @@
 			<div class="slider">
 				<ul>
 					<li>
-						<div class="bg" style="background-image : url(img/praxis/praxis3.jpg)">
+						<div class="bg" style="background-image : url(/img/mobile_slider/1.jpg)">
 							<a href="praxis.php" title="">
 								<span>PRAXIS</span>
 							</a>
 						</div>
 					</li>
 					<li>
-						<div class="bg" style="background-image : url(img/praxis/praxis4.jpg)">
+						<div class="bg" style="background-image : url(/img/mobile_slider/2.jpg)">
 							<a href="leistungen.php?type=allgemein" title="">
 								<span>ALLG. TIERMEDIZIN FÜR ALLE TIERARTEN</span>
 							</a>
 						</div>
 					</li>
 					<li>
-						<div class="bg" style="background-image : url(img/praxis/praxis2.jpg)">
+						<div class="bg" style="background-image : url(/img/mobile_slider/3.jpg)">
 							<a href="leistungen.php?type=eingriffe" title="">
 								<span>CHIRURGISCHE EINGRIFFE</span>
 							</a>
 						</div>
 					</li>
 					<li>
-						<div class="bg" style="background-image : url(img/praxis/praxis6.jpg)">
+						<div class="bg" style="background-image : url(/img/mobile_slider/4.jpg)">
 							<a href="leistungen.php?type=alternativen" title="">
 								<span>ALTERNATIVETHERAPIEN</span>
 							</a>
 						</div>
 					</li>
 					<li>
-						<div class="bg" style="background-image : url(img/praxis/praxis8.jpg)">
+						<div class="bg" style="background-image : url(/img/mobile_slider/5.jpg)">
 							<a href="leistungen.php?type=chiro" title="">
 								<span>CHIROPRAKTIK</span>
 							</a>
 						</div>
 					</li>
 					<li>
-						<div class="bg" style="background-image : url(img/praxis/praxis9.jpg)">
+						<div class="bg" style="background-image : url(/img/mobile_slider/6.jpg)">
 							<a href="leistungen.php?type=labor" title="">
 								<span>LABOR</span>
 							</a>

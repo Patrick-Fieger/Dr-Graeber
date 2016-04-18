@@ -67,17 +67,17 @@
 						<ul>
 
 							<li><a href="http://parasitosen.de/" target="_blank" class="link">Auslandskrankheiten</a></li>
-							<li><a href="Futterplan_Schildkroete.pdf" target="_blank" class="link">Futteranleitung europäische Landschildkröten</a></li>
-							<li><a href="Futterplan.pdf" target="_blank" class="link">Futterplan bei Magen-/Darmerkrankungen</a></li>
-							<li><a href="Merkblatt_Allergie.pdf" target="_blank" class="link">Merkblatt Allergie gegen Futtermittelmilben</a></li>
-							<li><a href="Demodikose.pdf" target="_blank" class="link">Demodikose</a></li>
+							<li><a href="downloads/Futterplan_Schildkroete.pdf" target="_blank" class="link">Futteranleitung europäische Landschildkröten</a></li>
+							<li><a href="downloads/Futterplan.pdf" target="_blank" class="link">Futterplan bei Magen-/Darmerkrankungen</a></li>
+							<li><a href="downloads/Merkblatt_Allergie.pdf" target="_blank" class="link">Merkblatt Allergie gegen Futtermittelmilben</a></li>
+							<li><a href="downloads/Demodikose.pdf" target="_blank" class="link">Demodikose</a></li>
 						</ul>
 						<br>
 						<b>Sonstiges:</b><br>
 						<ul>
-							<li><a href="Anmeldebogen.pdf" target="_blank" class="link">Anmeldebogen</a></li>
-							<li><a href="Impfbestimmungen.pdf" target="_blank" class="link">Impfbestimmungen (Influenza Pferd)</a></li>
-							<li><a href="Equidenpass_Pferde.pdf" target="_blank" class="link">Equidenpass Pferde</a></li>
+							<li><a href="downloads/Anmeldebogen.pdf" target="_blank" class="link">Anmeldebogen</a></li>
+							<li><a href="downloads/Impfbestimmungen.pdf" target="_blank" class="link">Impfbestimmungen (Influenza Pferd)</a></li>
+							<li><a href="downloads/Equidenpass_Pferde.pdf" target="_blank" class="link">Equidenpass Pferde</a></li>
 						</ul>
 					</div>
 				</div>

@@ -450,6 +450,10 @@ section{
     background-position: top center;
 }
 
+.ismobile .trenner{
+    background-attachment: initial;
+}
+
 .map_wrapper{
     margin-top: 30px;
     padding: 0;

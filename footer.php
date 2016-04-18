@@ -25,7 +25,7 @@
 			Mo - Fr:<br>	10:30 - 12:00 Uhr<br>
 			16:00 - 18:00 Uhr<br>
 			(außer Donnerstagnachmittag)<br>
-			Rezeption täglich ab 8 Uhr geöffnet
+			Rezeption vormittags ab 8 Uhr besetzt
 		</p>
 	</div>
 	<div class="col-2">
